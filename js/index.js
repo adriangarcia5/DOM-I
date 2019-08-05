@@ -110,3 +110,8 @@ contactInfo.getElementsByTagName('p')[0].textContent = siteContent["contact"]["a
 contactInfo.getElementsByTagName('p')[1].textContent = siteContent["contact"]["phone"]
 contactInfo.getElementsByTagName('p')[2].textContent = siteContent["contact"]["email"]
 
+//footer
+
+let footer = document.querySelector('footer')
+footer.innerText = "Copyright Great Idea! 2018"
+
