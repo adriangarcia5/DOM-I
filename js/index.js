@@ -101,3 +101,12 @@ mainContent[4].querySelector('p').textContent = siteContent['main-content']['vis
 let logo3= document.querySelector("#middle-img")
 logo3.setAttribute('src', siteContent["main-content"]["middle-img-src"])
 
+//contact 
+
+let contactInfo = document.querySelector('.contact')
+
+contactInfo.getElementsByTagName('h4')[0].textContent = siteContent["contact"]["contact-h4"]
+contactInfo.getElementsByTagName('p')[0].textContent = siteContent["contact"]["address"]
+contactInfo.getElementsByTagName('p')[1].textContent = siteContent["contact"]["phone"]
+contactInfo.getElementsByTagName('p')[2].textContent = siteContent["contact"]["email"]
+
