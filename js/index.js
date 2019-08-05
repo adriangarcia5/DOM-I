@@ -74,3 +74,13 @@ newATag2.href = '#'
 mainNav2.append(newATag2)
 newATag2.style.color = 'green'
 
+//main header section
+let mainHeading = document.querySelector('h1')
+mainHeading.textContent = siteContent['cta']['h1']
+
+let mainButton = document.querySelector('button')
+mainButton.innerText = "Get Started"
+
+let logo2 = document.querySelector("#cta-img")
+logo2.setAttribute('src', siteContent["cta"]["img-src"])
+
